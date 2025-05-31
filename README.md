@@ -90,25 +90,32 @@ C: Number of contents (do not use)
 [17] Right Hand
 
 (Bones)
-[ 0] Hip -> Left Hip (Length:)
-[ 1] Left Hip -> Left Leg (Length:)
-[ 2] Left Leg -> Left Foot (Length:)
-[ 3] Left Toe -> Left Toe (Length:)
-[ 4] Hip -> Right Hip (Length:)
-[ 5] Right Hip -> Right Leg (Length:)
-[ 6] Right Leg -> Right Foot (Length:)
-[ 7] Right Foot -> Right Toe (Length:)
-[ 8] Hip -> Spine (Length:)
-[ 9] Spine -> Chest (Length:)
-[10] Chest -> Neck (Length:)
-[11] Neck -> Head (Length:)
-[12] Chest -> Left Shoulder (Length:)
-[13] Left Shoullder -> Left Arm (Length:)
-[14] Left Arm -> Left Hand (Length:)
-[15] Chest -> Right Shoulder (Length:)
-[16] Right Shoulder -> Right Arm (Length:)
-[17] Right Arm -> Right Hand (Length:)
+[ 0] Hip            -> Left Hip       (Length:2.405)
+[ 1] Left Hip       -> Left Leg       (Length:7.158)
+[ 2] Left Leg       -> Left Foot      (Length:7.491)
+[ 3] Left Foot      -> Left Toe       (Length:2.368)
+[ 4] Hip            -> Right Hip      (Length:2.373)
+[ 5] Right Hip      -> Right Leg      (Length:7.434)
+[ 6] Right Leg      -> Right Foot     (Length:7.509)
+[ 7] Right Foot     -> Right Toe      (Length:2.412)
+[ 8] Hip            -> Spine          (Length:2.045)
+[ 9] Spine          -> Chest          (Length:2.050)
+[10] Chest          -> Neck           (Length:1.756)
+[11] Neck           -> Head           (Length:1.769)
+[12] Chest          -> Left Shoulder  (Length:3.584)
+[13] Left Shoullder -> Left Arm       (Length:4.983)
+[14] Left Arm       -> Left Hand      (Length:3.484)
+[15] Chest          -> Right Shoulder (Length:3.448)
+[16] Right Shoulder -> Right Arm      (Length:5.242)
+[17] Right Arm      -> Right Hand     (Length:3.444)
 ```
 
-
-3. 
+3. Creating Dataset
+![dataset](https://github.com/user-attachments/assets/37aa74bd-cc5f-4ff4-8830-8b095dcdd750)
+<ul>
+  <li> Extracting each joint coordinates from original datasets</li>
+  <li> Calculating direction (Direction vector of norm 1) -> direction</li>
+  <li> Reconstructing joint position based on bone length -> position</li>
+  <li> Calculating the amount of change in position of each joint -> velocity </li>
+  <li> Labelling motion data</li>
+</ul>
