@@ -1,3 +1,7 @@
+
+![title](https://github.com/user-attachments/assets/2a0bf6af-5e67-43a3-92d7-6025b9ad61e5)
+
+
 # Generalized_Stylized_Motion_Generation_Method
 Published in **IEEE Transactions on Multimedia**
 <br>
@@ -8,7 +12,18 @@ Movie:
 Webpage: 
 
 # Abstruct
+![idea](https://github.com/user-attachments/assets/5faffa9b-0479-4e4a-a98f-edf7a3ccc553)
 GeM2 aims to extend the applicability of stylized motion generation methods to be robust for large and diverse motions akin to those found in real-world data. Specifically, we introduce metadata-independent learning alongside style-focused learning, thereby enabling training from motions absent in motion-style datasets. In addition, we construct a novel motion dataset containing both various motions and stylized motions by unifying the multiple datasets to effectively train the model. Our novel learning method and dataset enable stylized motion generation methods to learn from both various motion knowledge and motion-style relations and improve their generalized performance.
+
+# Demo
+Comming Soon
+
+# Method
+Training
+![training](https://github.com/user-attachments/assets/5af31282-0961-4d2c-bb56-d432c3bf82d4)
+Genetration
+![generation](https://github.com/user-attachments/assets/429fc5b3-e9e5-48bb-b8f0-62aa6798c551)
+
 
 # Directries
  loader  : Directry of dataloader
@@ -19,7 +34,7 @@ GeM2 aims to extend the applicability of stylized motion generation methods to b
  <br>
  dataset : Directry of dataset (Created with reference to the following)
 
- # codes
+ # Codes
  1_pretrain.py : Pre-training the Style Encoder
  <br>
  2_train.py    : Training other networks
