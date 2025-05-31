@@ -1,8 +1,7 @@
 
-![title](https://github.com/user-attachments/assets/2a0bf6af-5e67-43a3-92d7-6025b9ad61e5)
-
-
 # Generalized_Stylized_Motion_Generation_Method
+
+![title](https://github.com/user-attachments/assets/2a0bf6af-5e67-43a3-92d7-6025b9ad61e5)
 Published in **IEEE Transactions on Multimedia**
 <br>
 paper:
