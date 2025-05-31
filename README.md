@@ -18,9 +18,10 @@ GeM2 aims to extend the applicability of stylized motion generation methods to b
 Comming Soon
 
 # Method
-Training
+**Training**
 ![training](https://github.com/user-attachments/assets/5af31282-0961-4d2c-bb56-d432c3bf82d4)
-Genetration
+- - -
+**Genetration**
 ![generation](https://github.com/user-attachments/assets/429fc5b3-e9e5-48bb-b8f0-62aa6798c551)
 
 
