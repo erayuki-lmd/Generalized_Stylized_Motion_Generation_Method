@@ -1,7 +1,10 @@
 # Generalized_Stylized_Motion_Generation_Method
 Published in **IEEE Transactions on Multimedia**
-paper:  
-Movie: 
+<br>
+paper:
+<br>
+Movie:
+<br>
 Webpage: 
 
 # Abstruct
@@ -61,6 +64,8 @@ C: Number of contents (do not use)
   style    : .../style/motion_1.npy
 
 ・All contents are T×C zero array (although it is not necessary for the method, it is required to run the code).
+
+・styles of motions without style label are T×S zero array (although it is not necessary for the method, it is required to run the code).
 
 ・All train data have same T.
 ```
